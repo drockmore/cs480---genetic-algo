@@ -1,7 +1,7 @@
 # Genetic Algorithm
 
 ## Overview
-This project is a crossword solver that processes crossword variables and solves them based on predefined configurations.
+This project is a genetic algorithm for cs480. 
 
 ## Requirements
 - Python 3.8 or higher
@@ -38,8 +38,8 @@ TARGET_IMAGE_PATH = "images/target/target_simple.png" # Location of the target i
 
 ### Output
 When the program is ran, a gray scale version of the target will be created and saved
-under "/images/target/target_grayscale.png", this will overwrite the previous grayscale
-image. Image progress outputs will be saved under "/images/matches/gen_{iteration}.png"
+under `/images/target/target_grayscale.png`, this will overwrite the previous grayscale
+image. Image progress outputs will be saved under `/images/matches/gen_{iteration}.png`
 
 A popup window will also be displayed that shows the current image progress with the
 generation count and current fitness. Further this information will also be available 
